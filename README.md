@@ -19,24 +19,27 @@ $ npm install -D @rubensworks/eslint-config eslint
 
 ## ESLint config
 
-`.eslintrc.js`:
+`eslint.config.js`:
 ```javascript
-require("@rushstack/eslint-patch/modern-module-resolution");
+const config = require('@rubensworks/eslint-config');
 
-module.exports = {
-    root: true,
-    parser: '@typescript-eslint/parser',
-    parserOptions: {
-        tsconfigRootDir: __dirname, // this is the reason this is a .js file
-        project: ['./tsconfig.eslint.json'],
+module.exports = config([
+  {
+    files: [ '**/*.ts' ],
+    languageOptions: {
+      parserOptions: {
+        tsconfigRootDir: __dirname,
+        project: [ './tsconfig.eslint.json' ],
+      },
     },
-    extends: [
-        '@rubensworks'
-    ],
+  },
+  {
+    // Override rules like this
     rules: {
-        'no-implicit-coercion': 'off'
-    }
-};
+      'no-implicit-coercion': 'off'
+    },
+  }
+);
 ```
 
 `.eslintignore`:
