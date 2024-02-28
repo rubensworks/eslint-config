@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+<a name="v3.0.0"></a>
+## [v3.0.0](https://github.com/rubensworks/eslint-config/compare/v2.0.0...v3.0.0) - 2024-02-28
+
+### Changed
+* [Migrate to rules based on @antfu/eslint-config](https://github.com/rubensworks/eslint-config/commit/f8a3cf265b7306098f39b3899a667f5c58cc149c)
+
 <a name="v2.0.0"></a>
 ## [v2.0.0](https://github.com/rubensworks/eslint-config/compare/v1.2.0...v2.0.0) - 2023-03-28
 
