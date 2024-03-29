@@ -15,10 +15,10 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@antfu/eslint-config@2.11.0":
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/@antfu/eslint-config/-/eslint-config-2.11.0.tgz#bbf024c6eea063b6bca3f931b13aa3033c3a2db0"
-  integrity sha512-9xeY3FIGtnOVlVKn5HraLrA+7sMrFFJkk5yLZPV7QGTyu45x1GtoPs2j+z+tHsyPEblEnPmfcVn/KbiA1N8NLw==
+"@antfu/eslint-config@2.11.3":
+  version "2.11.3"
+  resolved "https://registry.yarnpkg.com/@antfu/eslint-config/-/eslint-config-2.11.3.tgz#061ad4925caab94d124b427be1fba41478017dc1"
+  integrity sha512-ulSX6QWPkaZ7eJO5uQ4nAk9o67ZNlghaEGLZpZhpisBWx3R/fhbpDX6rQRQdCpZ4FsnVafSsRD5uw3uoP1JF6Q==
   dependencies:
     "@antfu/install-pkg" "^0.3.1"
     "@clack/prompts" "^0.7.0"
@@ -26,7 +26,7 @@
     "@typescript-eslint/eslint-plugin" "^7.4.0"
     "@typescript-eslint/parser" "^7.4.0"
     eslint-config-flat-gitignore "^0.1.3"
-    eslint-flat-config-utils "^0.1.0"
+    eslint-flat-config-utils "^0.1.1"
     eslint-merge-processors "^0.1.0"
     eslint-plugin-antfu "^2.1.2"
     eslint-plugin-eslint-comments "^3.2.0"
@@ -1930,10 +1930,10 @@ eslint-config-flat-gitignore@^0.1.3:
     find-up "^7.0.0"
     parse-gitignore "^2.0.0"
 
-eslint-flat-config-utils@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-flat-config-utils/-/eslint-flat-config-utils-0.1.0.tgz#22a5e68ae672c523944095755bf1b975b4971e41"
-  integrity sha512-GVjeM6BITHRpax/lLV8IEdsyIFHH0/4ggN3WJ3IcMTxKRmbo1pA8chPE/WP4sjvkEo8W6WaeIopUMhlzHYeP4g==
+eslint-flat-config-utils@^0.1.1:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/eslint-flat-config-utils/-/eslint-flat-config-utils-0.1.2.tgz#a5d3425700ad1ecae4e59da514f277de4a9d0e7c"
+  integrity sha512-NfeUJrbARSHGux2no/zz+YOjfMuPXpedcxRTqov3mlx9PJV2CYAJEj2EjbNSEyHMXQwNCfTtQVZXMSiktQTcpA==
   dependencies:
     "@types/eslint" "^8.56.6"
 
