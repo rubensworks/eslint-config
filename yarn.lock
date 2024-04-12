@@ -15,10 +15,10 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@antfu/eslint-config@2.13.2":
-  version "2.13.2"
-  resolved "https://registry.yarnpkg.com/@antfu/eslint-config/-/eslint-config-2.13.2.tgz#31799740491a0ff9e4f722e82b029b7fce9007b3"
-  integrity sha512-twfke7tx29F2lAyfMm412caEcgVh/msiwkuyWI+ZoskdPLHzSkKh9mql/EdijGO8Z/DjzWhpRObo94Vl74fL5w==
+"@antfu/eslint-config@2.13.3":
+  version "2.13.3"
+  resolved "https://registry.yarnpkg.com/@antfu/eslint-config/-/eslint-config-2.13.3.tgz#3e9a7b8bccab81461b4f25da288335abdc6e6282"
+  integrity sha512-DCyrnFgWtIc0mUTn8HeVB15Z/t9oEQZk8ce6S14Kq6z42LbMfZxPu6hs4SmPFYWLJoEzYq87dxsRv3glOX+aGw==
   dependencies:
     "@antfu/install-pkg" "^0.3.2"
     "@clack/prompts" "^0.7.0"
@@ -40,7 +40,7 @@
     eslint-plugin-toml "^0.11.0"
     eslint-plugin-unicorn "^52.0.0"
     eslint-plugin-unused-imports "^3.1.0"
-    eslint-plugin-vitest "^0.5.0"
+    eslint-plugin-vitest "^0.5.1"
     eslint-plugin-vue "^9.24.1"
     eslint-plugin-yml "^1.14.0"
     eslint-processor-vue-blocks "^0.1.1"
@@ -2244,7 +2244,7 @@ eslint-plugin-unused-imports@^3.1.0:
   dependencies:
     eslint-rule-composer "^0.3.0"
 
-eslint-plugin-vitest@^0.5.0:
+eslint-plugin-vitest@^0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-vitest/-/eslint-plugin-vitest-0.5.1.tgz#97d55c810304c913f4ea8e1a6aba1319276ff757"
   integrity sha512-g137wC+LCq2N+tfqK39Nl6Rs2N9u+zu6lWxaVgpN3wX+Kq6zSyxjPSI/ZBXUjP+qandT3z1DM5wK5IjD4XrAIw==
