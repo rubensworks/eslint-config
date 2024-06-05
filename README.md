@@ -39,7 +39,7 @@ module.exports = config([
       'no-implicit-coercion': 'off'
     },
   }
-);
+]);
 ```
 
 `.eslintignore`:
