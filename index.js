@@ -4,12 +4,12 @@ const testConfig = require('./eslint/test');
 const typedConfig = require('./eslint/typed');
 const unicornConfig = require('./eslint/unicorn');
 
-module.exports = async options => [
+module.exports = async(options, { disableJest } = {}) => [
   await antfu.default(),
   generalConfig,
   unicornConfig,
   typedConfig,
-  testConfig,
+  ...(disableJest ? [] : [ testConfig ]),
   {
     files: [ '**/bin/*.ts' ],
     rules: {
