@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+<a name="v3.1.0"></a>
+## [v3.1.0](https://github.com/rubensworks/eslint-config/compare/v3.0.0...v3.1.0) - 2025-01-28
+
+### Added
+* [Add optional config to disable jest dependency (#14)](https://github.com/rubensworks/eslint-config/commit/43421bdebceb0970e74683ba586c8e8c532cfe95)
+
 <a name="v3.0.0"></a>
 ## [v3.0.0](https://github.com/rubensworks/eslint-config/compare/v2.0.0...v3.0.0) - 2024-02-28
 
