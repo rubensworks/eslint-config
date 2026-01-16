@@ -79,7 +79,7 @@ coverage
 ```json
 {
   "scripts": {
-    "lint": "eslint . --ext .ts --cache"
+    "lint": "eslint . --cache"
   }
 }
 ```
