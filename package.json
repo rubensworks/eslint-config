@@ -5,7 +5,7 @@
   "author": "Ruben Taelman <rubensworks@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/rubensworks/eslint-config#readme",
-  "repository": "git@github.com:rubensworks/eslint-config.git",
+  "repository": "git+https://github.com/rubensworks/eslint-config.git",
   "bugs": {
     "url": "https://github.com/rubensworks/eslint-config/issues"
   },
