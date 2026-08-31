@@ -32,6 +32,9 @@ module.exports = {
     'vitest/unbound-method': 'off',
 
     // Vitest-only rules (no jest counterpart) that are overkill
+    // Rewrites `toBeTruthy()` into `toBe(true)`, which asserts something stricter than was written.
+    // The `all` config already leaves the matching 'prefer-to-be-truthy' and 'prefer-to-be-falsy' off.
+    'vitest/prefer-strict-boolean-matchers': 'off',
     // Forces `describe(MyClass, ...)` over the conventional `describe('MyClass', ...)`
     'vitest/prefer-describe-function-title': 'off',
     // Forces explicit type parameters on every `vi.fn()`
