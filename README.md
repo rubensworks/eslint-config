@@ -42,6 +42,30 @@ module.exports = config([
 ]);
 ```
 
+### Test framework rules
+
+Rules for [Jest](https://jestjs.io/) are enabled by default on `**/test/**/*.ts`.
+Pass a second argument to toggle them, and to enable the equivalent
+[Vitest](https://vitest.dev/) rules instead:
+
+```javascript
+const config = require('@rubensworks/eslint-config');
+
+module.exports = config([
+  // Your overrides
+], { disableJest: true, enableVitest: true });
+```
+
+| Option         | Default | Description                                                       |
+| -------------- | ------- | ----------------------------------------------------------------- |
+| `disableJest`  | `false` | Disable the `eslint-plugin-jest` rules.                           |
+| `enableVitest` | `false` | Enable the `@vitest/eslint-plugin` rules, mirroring the Jest ones. |
+
+`@antfu/eslint-config` also registers `eslint-plugin-vitest` under the `test/` prefix for
+`**/*.{spec,test,bench,benchmark}.*` and `**/__tests__/**`, so a file such as `test/Foo.test.ts`
+matches both that glob and ours. When `enableVitest` is set, the overlapping `test/` rules are
+turned off in favour of their `vitest/` equivalents, to avoid the same problem being reported twice.
+
 `.eslintignore`:
 ```text
 node_modules

@@ -1,15 +1,17 @@
 const antfu = require('@antfu/eslint-config');
 const generalConfig = require('./eslint/general');
 const testConfig = require('./eslint/test');
+const testVitestConfig = require('./eslint/test-vitest');
 const typedConfig = require('./eslint/typed');
 const unicornConfig = require('./eslint/unicorn');
 
-module.exports = async(options, { disableJest } = {}) => [
+module.exports = async(options, { disableJest, enableVitest } = {}) => [
   await antfu.default(),
   generalConfig,
   unicornConfig,
   typedConfig,
   ...(disableJest ? [] : [ testConfig ]),
+  ...(enableVitest ? [ testVitestConfig ] : []),
   {
     files: [ '**/bin/*.ts' ],
     rules: {
