@@ -42,6 +42,17 @@ module.exports = config([
 ]);
 ```
 
+### Test rules
+
+[Jest](https://jestjs.io/) rules are enabled on `**/test/**/*.ts` by default.
+Pass `enableVitest` to use the equivalent [Vitest](https://vitest.dev/) rules instead, or `disableJest` to disable the Jest rules:
+
+```javascript
+module.exports = config([
+  // Your overrides
+], { enableVitest: true });
+```
+
 `.eslintignore`:
 ```text
 node_modules
