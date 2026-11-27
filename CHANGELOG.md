@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+<a name="v3.2.0"></a>
+## [v3.2.0](https://github.com/rubensworks/eslint-config/compare/v3.1.0...v3.2.0) - 2026-11-27
+
+### Added
+* [Add Vitest config mirroring the Jest rules (#21)](https://github.com/rubensworks/eslint-config/commit/2e7095f310dc9c27f34527c8969d963b021556d9)
+
 <a name="v3.1.0"></a>
 ## [v3.1.0](https://github.com/rubensworks/eslint-config/compare/v3.0.0...v3.1.0) - 2025-01-28
 
